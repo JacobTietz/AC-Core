@@ -1,6 +1,6 @@
-### STAMINA SCALING TEMPORARY CHANGE
+// ### STAMINA SCALING TEMPORARY CHANGE
 
-AFTER: (RESTRICTS TO INTEGERS)
+// AFTER: (RESTRICTS TO INTEGERS)
 
 float Player::GetHealthBonusFromStamina()
 {
@@ -21,7 +21,7 @@ float Player::GetHealthBonusFromStamina()
     }
 }
 
-BEFOREv2: (INCLUDES FLOATS, NOT FOLLOWING GAME RULING)
+// BEFOREv2: (INCLUDES FLOATS, NOT FOLLOWING GAME RULING)
 
 float Player::GetHealthBonusFromStamina()
 {
@@ -42,7 +42,7 @@ float Player::GetHealthBonusFromStamina()
     }
 }
 
-BEFOREv1: (BASE GAME)
+// BEFOREv1: (BASE GAME)
 
 float Player::GetHealthBonusFromStamina()
 {
